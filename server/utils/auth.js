@@ -31,7 +31,7 @@ module.exports = {
       console.log('Invalid token');
     }
 
-    // return the request object so it can be passed to the resolver as `context`
+  // return the request object so it can be passed to the resolver as `context`
     return req;
   },
   signToken: function ({ email, name, _id }) {
