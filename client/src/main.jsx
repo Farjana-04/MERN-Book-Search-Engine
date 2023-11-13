@@ -6,26 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './app.css';
 import App from './App';
 
-// import App from './App.jsx'
-// import SearchBooks from './pages/SearchBooks'
-// import SavedBooks from './pages/SavedBooks'
 
-// const router = createBrowserRouter([
-//   {
-//     path: '/',
-//     element: <App />,
-//     errorElement: <h1 className='display-2'>Wrong page!</h1>,
-//     children: [
-//       {
-//         index: true,
-//         element: <SearchBooks />
-//       }, {
-//         path: '/saved',
-//         element: <SavedBooks />
-//       }
-//     ]
-//   }
-// ])
 ReactDOM.render(
   <React.StrictMode>
     <App />
