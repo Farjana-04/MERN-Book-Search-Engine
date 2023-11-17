@@ -33,10 +33,10 @@ const typeDefs = `
     addUser(username: String!, email: String!, password: String!): Auth
     login(email: String!, password: String!): Auth
 
-    saveBook(authors: [String]!
+    saveBook(authors: [String]
       description: String
       title: String
-      bookId: ID!
+      bookId: String!
       image: String
     ): User
     removeBook(bookId:ID!): User

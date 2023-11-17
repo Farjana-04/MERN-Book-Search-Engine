@@ -1,5 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { Jumbotron, Container, Col, Form, Button, Card, CardColumns } from "react-bootstrap";
+import {
+  Container,
+  Col,
+  Form,
+  Button,
+  Card,
+  Row
+} from 'react-bootstrap';
+// import CardColumns from 'react-bootstrap/CardColumns'
 
 import Auth from "../utils/auth";
 import { searchGoogleBooks } from "../utils/API";
@@ -68,13 +76,13 @@ const SearchBooks = () => {
     try {
       // const response = await saveBook({ variables: { ...bookToSave } });
       const {data} = await saveBook({
-        variables: { input: bookToSave }
+        variables: { ...bookToSave }
       });
 
-      if (!response.ok) {
-        throw new Error("something went wrong!");
-      }
-
+      // if (!response.ok) {
+      //   throw new Error("something went wrong!");
+      // }
+    console.log(bookToSave)
       // if book successfully saves to user's account, save book id to state
       setSavedBookIds([...savedBookIds, bookToSave.bookId]);
     } catch (err) {
@@ -84,10 +92,11 @@ const SearchBooks = () => {
 
   return (
     <>
-      <Jumbotron fluid className="text-light bg-dark p-5">
+      <div className="text-light bg-dark p-5">
         <Container>
           <h1> Search for Books </h1>
            <Form onSubmit={handleFormSubmit}>
+            <Row>
             <Col xs={12} md={8}>
               <Form.Control
                 name="searchInput"
@@ -103,21 +112,24 @@ const SearchBooks = () => {
                 Submit Search
               </Button>
             </Col>
+            </Row>
           </Form>
         </Container>
-      </Jumbotron>
+      </div>
 
       <Container>
         <h2>
+        
           {searchedBooks.length
             ? `Viewing ${searchedBooks.length} results:`
             : "Search for a book to begin"}
         </h2>
-
-        <CardColumns>
+        <Row>
+        
           {searchedBooks.map((book) => {
             return (
-              <Card key={book.bookId} border="dark">
+              <Col md="4" key={book.bookId}>
+              <Card border="dark">
                 {book.image ? (
                   <Card.Img
                     src={book.image}
@@ -146,9 +158,10 @@ const SearchBooks = () => {
                   )}
                 </Card.Body>
               </Card>
+              </Col>
             );
           })}
-        </CardColumns>
+        </Row>
       </Container>
     </>
   );
