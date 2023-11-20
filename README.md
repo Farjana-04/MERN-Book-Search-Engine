@@ -3,8 +3,8 @@
 ## Description:
 In this application we have starter code with a fully functioning Google Books API search engine built with a RESTful API, and refactor it to be a GraphQL API built with Apollo Server. 
 The app was built using the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API. It's already set up to allow users to save book searches to the back end.
-![ph](https://github.com/Farjana-04/PWA-Text-Editor/assets/92415181/55ec9d6a-807f-4aa3-b89b-bb79f594bd93)
 
+![ph](https://github.com/Farjana-04/MERN-Book-Search-Engine/assets/92415181/b047188d-7c04-4990-b3f8-234090a670c9)
 ## User Story
 
 AS AN avid reader
