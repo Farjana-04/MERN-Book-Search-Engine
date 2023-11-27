@@ -72,7 +72,11 @@ Follow the examples on my repo.
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contributing Guidelines:
-Please contact us if you have any Questions Email sjdoublec@gmail.com, kiarajohnson91@gmail.com,  amberdiehl@outlook.com, farjana.akhter085@gmail.com
+Please contact us if you have any questions `Email` 
+sjdoublec@gmail.com 
+kiarajohnson91@gmail.com  
+amberdiehl@outlook.com 
+farjana.akhter085@gmail.com
 
 
 ## Tests:
