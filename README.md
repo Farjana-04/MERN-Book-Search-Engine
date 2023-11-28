@@ -66,7 +66,8 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 - [Email](#email)
 
 ## Installation:
-npm install https://github.com/indexzero/forever/tarball/v0.5.6
+Install using the package manager.
+`npm install` 
 
 ## Usage
 Follow the examples on my repo.
