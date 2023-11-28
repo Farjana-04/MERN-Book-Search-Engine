@@ -55,7 +55,7 @@ https://mernbook-search-45ac530017fa.herokuapp.com/
 [![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 
 ## Authors:
-[![✉️](path/to/email-image.png)](farjana.akhter085@gmail.com)
+<a href="mailto:fa5@gmail.com"><img src="path/to/email-image.png" alt="✉️"></a>
 
 
 
