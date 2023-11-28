@@ -52,6 +52,9 @@ https://mernbook-search-45ac530017fa.herokuapp.com/
 
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 
+## Authors:
+[fa09@gmail.com](mailto:fa09@gmail.com)
+
 [![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 
 
